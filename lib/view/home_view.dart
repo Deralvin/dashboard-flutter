@@ -67,6 +67,10 @@ class _HomeViewState extends State<HomeView> {
                         decoration: InputDecoration(
                           fillColor: darkToogle == true ? Colors.white : null,
                           filled: true,
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: const BorderSide(color: Colors.transparent, width: 2.0),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
                           border: const OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.transparent),
                             borderRadius: const BorderRadius.all(
